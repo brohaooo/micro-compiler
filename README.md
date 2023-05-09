@@ -12,3 +12,6 @@ you can compile it either in windows (run make_script_in_windows.bat) or in linu
 then use the command
   ./compiler \$testfile
 to see the result.
+
+This micro-compiler can generate correct MIPS codes, but it doesn't behave like common compilers. 
+It uses stack for intermediate values and ID values storage but won't free stack memory during the run.
