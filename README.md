@@ -21,3 +21,6 @@ to see the result.
 ## some issues
 This micro-compiler can generate correct MIPS codes, but it doesn't behave like common compilers. 
 It uses stack for intermediate values and ID values storage but won't free stack memory during the run.
+
+## final score:
+100/100
